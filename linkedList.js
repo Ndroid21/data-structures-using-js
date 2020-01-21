@@ -30,7 +30,7 @@ class LinkedList {
     }
 
     prepend(value) {
-        oldHead = this.head;
+        const oldHead = this.head;
 
         this.head = {
             value: value,
@@ -38,6 +38,10 @@ class LinkedList {
         }
 
         this.length++;
+    }
+
+    insert(value, index){
+        //code here
     }
     
 }
