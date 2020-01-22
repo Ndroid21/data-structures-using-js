@@ -1,4 +1,4 @@
-function Queue () {
+function queue () {
     collection = [];
     this.print = function () {
         console.log(collection);
@@ -24,3 +24,9 @@ function Queue () {
         return (collection === 0);
     }
 };
+
+//Class implementation
+
+class Queue {
+    //implement class
+}
