@@ -41,7 +41,11 @@ class LinkedList {
     }
 
     insert(value, index){
-        //code here
+        //if index is greater than last item index then append new item at last
+        if(index >= this.length){
+            this.append(value);
+        }
+
     }
     
 }
